@@ -6,8 +6,12 @@
 # Use the same loop for both calculations
 
 n = 5
-
-
+rsum = 0
+fac = 1
+for i in range(1,n+1):
+    rsum += i
+    fac *= i
+print (n, rsum, fac)
 """
 5 15 120
 """

@@ -5,6 +5,14 @@
 # Skip AA, CC etc.
 # Also print out how many combinations there are
 
+aa = "GAPVLIMCFYWHRKQNDEST"
+print ("number of letters=", len(aa))
+count = 0
+for i in range(0, len(aa)):
+    for j in range (i+1, len(aa)):
+        count += 1
+        print( "pair number =", count, aa[i], aa[j])
+print("total number of pair =", count)
 
 """
 A C
